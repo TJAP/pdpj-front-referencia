@@ -1,0 +1,33 @@
+{
+  "recommendations": [
+    "GregorBiswanger.json2ts",
+    "stringham.move-ts",
+    "joelday.docthis",
+    "wallabyjs.quokka-vscode",
+    "visualstudioexptteam.vscodeintellicode",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "mikael.angular-beastcode",
+    "angular.ng-template",
+    "cyrilletuzi.angular-schematics",
+    "simontest.simontest",
+    "thekalinga.bootstrap4-vscode",
+    "angulardoc.angulardoc-vscode",
+    "1tontech.angular-material",
+    "hbenl.vscode-test-explorer",
+    "connorshea.vscode-test-explorer-status-bar",
+    "hbenl.vscode-test-explorer-liveshare",
+    "hbenl.vscode-jasmine-test-adapter",
+    "raagh.angular-karma-test-explorer",
+    "alexkrechik.cucumberautocomplete",
+    "msjsdiag.debugger-for-chrome",
+    "esbenp.prettier-vscode",
+    "yigitfindikli.primengsnippets",
+    "ms-azuretools.vscode-docker",
+    "p1c2u.docker-compose",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "EditorConfig.EditorConfig",
+    "gruntfuggly.todo-tree",
+    "knisterpeter.vscode-commitizen"
+  ]
+}

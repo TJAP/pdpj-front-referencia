@@ -1,0 +1,30 @@
+
+<div class="container-fluid">
+  
+    <div class="formulario-consulta">
+        <mat-card>
+            <mat-card-title>Consulta</mat-card-title>
+            <form (ngSubmit)="pesquisar()">
+                <div class="filtro">
+                    <mat-form-field appearance="fill">
+                        <mat-label>Filtro</mat-label>
+                        <input matInput [value]="filtro" type="text">
+                    </mat-form-field>
+                </div>
+                <div class="botoes">
+                    <button type="submit" mat-raised-button color="primary">Pesquisar</button>
+                    <button type="reset" mat-raised-button color="secondary" (click)="limpar()">Limpar</button>
+                </div>
+            </form>
+        </mat-card>
+    </div>
+
+    <div class="resultado-consulta" *ngIf="lista && lista.length>0">
+        <mat-card>
+            <div *ngFor="let item of lista">
+                {{resultado.algumCampo}}
+            </div>
+        </mat-card>
+    </div>
+
+</div>

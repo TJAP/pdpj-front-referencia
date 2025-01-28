@@ -1,0 +1,43 @@
+@import "~@cnj/uikit/lib/theme/uikit/fonts/roboto.css";
+@import "~@cnj/uikit/lib/theme/uikit/uikit-theme.scss";
+@import "~@cnj/uikit/lib/theme/uikit/prime-ng/uikit-prime-ng.scss";
+@import "~bootstrap/dist/css/bootstrap-grid.min.css";
+@import "~@cnj/uikit/lib/theme/uikit/toastr/toastr.css";
+
+/* Logo */
+.logodesk {
+    content: url('assets/images/uikit-logotipo.png') !important;
+}
+.logomobile {
+    content: url('assets/images/uikit-logotipo.png') !important;
+}
+.dark {
+    .logomobile {
+        content: url('assets/images/pdpj-logo-branca.png') !important;
+    }
+    .logodesk {
+        content: url('assets/images/pdpj-logo-branca.png') !important;
+    }
+}
+
+
+/* Snackbar (avisos) */
+.snack-bar-success-color {
+    background: #304FFE;
+  }
+
+.snack-bar-info-color {
+    background: #03A9F4;
+}
+
+.snack-bar-warning-color {
+    background: #FF3D00;
+}
+
+.snack-bar-error-color {
+    background: #D50000;
+}
+
+.snack-messenger-div-close-button {
+    height: 50px;
+}

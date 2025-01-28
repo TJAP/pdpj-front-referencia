@@ -1,0 +1,33 @@
+<uikit-layout
+  [showNotifications]="false"
+  [showUserInfo]="false"
+  [showIa]="false"
+  [showSystemInfo]="false">
+
+  <div layout-header-userinfo>
+    <!-- Componentes e Elementos para o conteúdo do userinfo -->
+  </div>
+
+  <div layout-nav-menu>
+    <!-- Itens para o menu (uikit-menu-item) -->
+    <uikit-menu>
+      <uikit-menu-item title="Consulta" icon="fa-lg fas fa-chart-line" [link]="['/tela-consulta']"></uikit-menu-item>
+    </uikit-menu>
+  </div>
+
+  <div layout-nav-menu-extras>
+    <!-- Elementos adicionais para o menu -->
+  </div>
+
+  <div layout-header-notifications>
+    <!-- Componentes que representam uma notificação (uikit-notificacao) -->
+    <!-- <uikit-notificacao nome="Nome1" descricao="Descricao1" icone="fas fa-info-circle" [read]="true"></uikit-notificacao> -->
+  </div>
+
+  <div layout-header-systeminfo>
+    <!-- Qualquer elemento para representar uma versão (changelog) -->
+  </div>
+
+  <router-outlet></router-outlet>
+
+</uikit-layout>

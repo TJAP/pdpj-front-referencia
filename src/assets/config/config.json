@@ -1,0 +1,12 @@
+{
+  "name": "local",
+  "production": false,
+  "api": {
+    "url": "http://localhost:8080/api/v1"
+  },
+  "authentication": {
+    "authority": "http://localhost:8280/auth/realms/pje/",
+    "client_id": "configuracao-web-client-id",
+    "scope": "openid email profile"
+  }
+}

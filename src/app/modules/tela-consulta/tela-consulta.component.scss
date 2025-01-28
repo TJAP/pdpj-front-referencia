@@ -1,0 +1,14 @@
+.formulario-consulta .filtro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-consulta .filtro mat-form-field {
+    width: 50%;
+}
+
+.formulario-consulta .botoes {
+    display: flex;
+    justify-content: center;
+}

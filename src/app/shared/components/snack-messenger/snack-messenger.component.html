@@ -1,0 +1,13 @@
+<div class="snack-messenger-container">
+  <div class="snack-messenger-div-content">
+    <div class="snack-messenger-div-icon">
+      <mat-icon [className]="data?.message.icon"></mat-icon>
+    </div>
+    <div class="snack-messenger-div-text-messages">
+      <span class="snack-messenger-text">{{data?.message.text}}</span>
+    </div>
+  </div>
+  <div class="snack-messenger-div-close-button">
+    <button mat-stroked-button class="snack-messenger-close-button" (click)="close()">{{data?.message.action}}</button>
+  </div>
+</div>
